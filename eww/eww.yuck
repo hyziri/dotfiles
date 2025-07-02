@@ -1,0 +1,29 @@
+(defpoll time :interval "10s" "date '+%b %d  %I:%M %p'")
+
+(defwindow bar
+  :monitor 0
+  :geometry (geometry :x "0%"
+                      :y "0%"
+                      :width "100%"
+                      :height "20px"
+                      :anchor "top center"
+  )
+  :exclusive true
+  (bar))
+
+(defwidget bar []
+  (centerbox
+    (left-bar)
+    (time)
+    (right-bar)))
+
+(defwidget left-bar [])
+
+(defwidget time []
+  (box  :space-evenly false
+        :spacing 8
+    (label :text "${time}")))
+
+(defwidget right-bar []
+  (box
+    (systray)))

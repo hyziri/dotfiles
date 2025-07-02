@@ -1,0 +1,30 @@
+$accent: #8176d3;
+
+$text: #ECECEC;
+$subtext1: #9D9D9D;
+$subtext2: #6C6C6C;
+
+$crust: #3A3A3A;
+$mantle: #2C2C2C;
+$base: #0f0f0f;
+
+// Style
+
+* {
+  all: unset;
+}
+
+.bar {
+  background-color: $base;
+  color: $text;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.left-bar {
+  padding-left: 10px;
+}
+
+.right-bar {
+  padding-right: 10px;
+}
