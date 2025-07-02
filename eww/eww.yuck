@@ -17,7 +17,9 @@
     (time)
     (right-bar)))
 
-(defwidget left-bar [])
+(defwidget left-bar []
+    (box)
+)
 
 (defwidget time []
   (box  :space-evenly false
