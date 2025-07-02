@@ -7,7 +7,7 @@ These are the dotfiles used for my Arch Linux setup.
 - networkmanager (ProtonVPN requirement)
 - network-manager-applet (ProtonVPN requirement)
 - polkit (ProtonVPN requirement)
-- kde-polkit-agent (ProtonVPN requirement)
+- polkit-kde-agent (ProtonVPN requirement)
 - gnome-keyring (ProtonVPN requirement)
 - wofi
 
