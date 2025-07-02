@@ -27,5 +27,7 @@
     (label :text "${time}")))
 
 (defwidget right-bar []
-  (box
+  (box  :class "right-bar"
+        :halign "end"
+        :space-evenly false
     (systray)))
